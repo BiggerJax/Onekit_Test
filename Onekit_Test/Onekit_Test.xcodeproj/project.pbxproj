@@ -15,7 +15,6 @@
 		9D8482001E839DCB009E184A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D8481FE1E839DCB009E184A /* LaunchScreen.storyboard */; };
 		9D8482901E839DE3009E184A /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D84820A1E839DE3009E184A /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9D8482911E839DE3009E184A /* MATH.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8482361E839DE3009E184A /* MATH.m */; };
-		9D8482921E839DE3009E184A /* MESSAGE.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8482381E839DE3009E184A /* MESSAGE.m */; };
 		9D8482931E839DE3009E184A /* NSString+OneKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8482391E839DE3009E184A /* NSString+OneKit.m */; };
 		9D8482941E839DE3009E184A /* OKActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D84823A1E839DE3009E184A /* OKActions.m */; };
 		9D8482951E839DE3009E184A /* OKAjax.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D84823B1E839DE3009E184A /* OKAjax.m */; };
@@ -120,8 +119,6 @@
 		9D8482331E839DE3009E184A /* UIView+OneKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+OneKit.h"; sourceTree = "<group>"; };
 		9D8482341E839DE3009E184A /* UIViewController+OneKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+OneKit.h"; sourceTree = "<group>"; };
 		9D8482361E839DE3009E184A /* MATH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MATH.m; sourceTree = "<group>"; };
-		9D8482371E839DE3009E184A /* MESSAGE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MESSAGE.h; path = ../MESSAGE.h; sourceTree = "<group>"; };
-		9D8482381E839DE3009E184A /* MESSAGE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MESSAGE.m; sourceTree = "<group>"; };
 		9D8482391E839DE3009E184A /* NSString+OneKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+OneKit.m"; sourceTree = "<group>"; };
 		9D84823A1E839DE3009E184A /* OKActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKActions.m; sourceTree = "<group>"; };
 		9D84823B1E839DE3009E184A /* OKAjax.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKAjax.m; sourceTree = "<group>"; };
@@ -132,7 +129,7 @@
 		9D8482401E839DE3009E184A /* OKColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKColor.m; sourceTree = "<group>"; };
 		9D8482411E839DE3009E184A /* OKConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKConfig.m; sourceTree = "<group>"; };
 		9D8482421E839DE3009E184A /* OKData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKData.m; sourceTree = "<group>"; };
-		9D8482431E839DE3009E184A /* OKDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKDatePicker.h; sourceTree = "<group>"; };
+		9D8482431E839DE3009E184A /* OKDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OKDatePicker.h; path = ../OKDatePicker.h; sourceTree = "<group>"; };
 		9D8482441E839DE3009E184A /* OKDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKDatePicker.m; sourceTree = "<group>"; };
 		9D8482451E839DE3009E184A /* OKDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKDB.m; sourceTree = "<group>"; };
 		9D8482461E839DE3009E184A /* OKDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKDevice.m; sourceTree = "<group>"; };
@@ -255,7 +252,6 @@
 			children = (
 				9D84820C1E839DE3009E184A /* header */,
 				9D8482361E839DE3009E184A /* MATH.m */,
-				9D8482381E839DE3009E184A /* MESSAGE.m */,
 				9D8482391E839DE3009E184A /* NSString+OneKit.m */,
 				9D84823A1E839DE3009E184A /* OKActions.m */,
 				9D84823B1E839DE3009E184A /* OKAjax.m */,
@@ -266,7 +262,6 @@
 				9D8482401E839DE3009E184A /* OKColor.m */,
 				9D8482411E839DE3009E184A /* OKConfig.m */,
 				9D8482421E839DE3009E184A /* OKData.m */,
-				9D8482431E839DE3009E184A /* OKDatePicker.h */,
 				9D8482441E839DE3009E184A /* OKDatePicker.m */,
 				9D8482451E839DE3009E184A /* OKDB.m */,
 				9D8482461E839DE3009E184A /* OKDevice.m */,
@@ -301,7 +296,6 @@
 		9D84820C1E839DE3009E184A /* header */ = {
 			isa = PBXGroup;
 			children = (
-				9D8482371E839DE3009E184A /* MESSAGE.h */,
 				9D84820D1E839DE3009E184A /* Macro.h */,
 				9D84820E1E839DE3009E184A /* MATH.h */,
 				9D84820F1E839DE3009E184A /* NSString+OneKit.h */,
@@ -341,6 +335,7 @@
 				9D8482321E839DE3009E184A /* UIImage+OneKit.h */,
 				9D8482331E839DE3009E184A /* UIView+OneKit.h */,
 				9D8482341E839DE3009E184A /* UIViewController+OneKit.h */,
+				9D8482431E839DE3009E184A /* OKDatePicker.h */,
 			);
 			path = header;
 			sourceTree = "<group>";
@@ -496,7 +491,6 @@
 				9D8482A11E839DE3009E184A /* OKFso.m in Sources */,
 				9D8482B81E839DE3009E184A /* UIViewController+OneKit.m in Sources */,
 				9D8482A41E839DE3009E184A /* OKLbs.m in Sources */,
-				9D8482921E839DE3009E184A /* MESSAGE.m in Sources */,
 				9D8482B61E839DE3009E184A /* UIImage+OneKit.m in Sources */,
 				9D8482AE1E839DE3009E184A /* OKRes.m in Sources */,
 				9D8482961E839DE3009E184A /* OKApp.m in Sources */,
