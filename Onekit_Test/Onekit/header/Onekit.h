@@ -20,7 +20,7 @@
 #import "NSString+OneKit.h"
 #import "OKData.h"
 #import "OKPath.h"
-#import "OKZip.h"
+
 #import "OKAjax.h"
 #import "OKApp.h"
 #import "OKDialog.h"

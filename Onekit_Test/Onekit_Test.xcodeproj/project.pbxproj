@@ -55,20 +55,6 @@
 		9D8482B81E839DE3009E184A /* UIViewController+OneKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D84825F1E839DE3009E184A /* UIViewController+OneKit.m */; };
 		9D8482BA1E839DE3009E184A /* NSAttributedString+OneKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8482631E839DE3009E184A /* NSAttributedString+OneKit.m */; };
 		9D8482BB1E839DE3009E184A /* WKWebView+OneKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8482651E839DE3009E184A /* WKWebView+OneKit.m */; };
-		9D8482BC1E839DE3009E184A /* aescrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 9D84826A1E839DE3009E184A /* aescrypt.c */; };
-		9D8482BD1E839DE3009E184A /* aeskey.c in Sources */ = {isa = PBXBuildFile; fileRef = 9D84826B1E839DE3009E184A /* aeskey.c */; };
-		9D8482BE1E839DE3009E184A /* aestab.c in Sources */ = {isa = PBXBuildFile; fileRef = 9D84826D1E839DE3009E184A /* aestab.c */; };
-		9D8482BF1E839DE3009E184A /* entropy.c in Sources */ = {isa = PBXBuildFile; fileRef = 9D8482711E839DE3009E184A /* entropy.c */; };
-		9D8482C01E839DE3009E184A /* fileenc.c in Sources */ = {isa = PBXBuildFile; fileRef = 9D8482731E839DE3009E184A /* fileenc.c */; };
-		9D8482C11E839DE3009E184A /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = 9D8482751E839DE3009E184A /* hmac.c */; };
-		9D8482C21E839DE3009E184A /* prng.c in Sources */ = {isa = PBXBuildFile; fileRef = 9D8482771E839DE3009E184A /* prng.c */; };
-		9D8482C31E839DE3009E184A /* pwd2key.c in Sources */ = {isa = PBXBuildFile; fileRef = 9D8482791E839DE3009E184A /* pwd2key.c */; };
-		9D8482C41E839DE3009E184A /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 9D84827B1E839DE3009E184A /* sha1.c */; };
-		9D8482C51E839DE3009E184A /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 9D84827F1E839DE3009E184A /* ioapi.c */; };
-		9D8482C61E839DE3009E184A /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 9D8482811E839DE3009E184A /* mztools.c */; };
-		9D8482C71E839DE3009E184A /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 9D8482831E839DE3009E184A /* unzip.c */; };
-		9D8482C81E839DE3009E184A /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 9D8482851E839DE3009E184A /* zip.c */; };
-		9D8482C91E839DE3009E184A /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8482881E839DE3009E184A /* SSZipArchive.m */; };
 		9D8482CA1E839DE3009E184A /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D84828D1E839DE3009E184A /* TFHpple.m */; };
 		9D8482CB1E839DE3009E184A /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D84828F1E839DE3009E184A /* TFHppleElement.m */; };
 		9D8482CE1E839E25009E184A /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D8482CD1E839E25009E184A /* libsqlite3.tbd */; };
@@ -78,7 +64,6 @@
 		9D8482D61E839E9E009E184A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D8482D51E839E9E009E184A /* MessageUI.framework */; };
 		9D8482D81E839EA6009E184A /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D8482D71E839EA6009E184A /* AssetsLibrary.framework */; };
 		9D8482DA1E83A0A4009E184A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D8482D91E83A0A4009E184A /* UIKit.framework */; };
-		9D8482DC1E83A172009E184A /* OKZip.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8482DB1E83A172009E184A /* OKZip.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -179,40 +164,6 @@
 		9D8482631E839DE3009E184A /* NSAttributedString+OneKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+OneKit.m"; sourceTree = "<group>"; };
 		9D8482641E839DE3009E184A /* WKWebView+OneKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WKWebView+OneKit.h"; sourceTree = "<group>"; };
 		9D8482651E839DE3009E184A /* WKWebView+OneKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WKWebView+OneKit.m"; sourceTree = "<group>"; };
-		9D8482681E839DE3009E184A /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
-		9D8482691E839DE3009E184A /* aes_via_ace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes_via_ace.h; sourceTree = "<group>"; };
-		9D84826A1E839DE3009E184A /* aescrypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aescrypt.c; sourceTree = "<group>"; };
-		9D84826B1E839DE3009E184A /* aeskey.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aeskey.c; sourceTree = "<group>"; };
-		9D84826C1E839DE3009E184A /* aesopt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aesopt.h; sourceTree = "<group>"; };
-		9D84826D1E839DE3009E184A /* aestab.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aestab.c; sourceTree = "<group>"; };
-		9D84826E1E839DE3009E184A /* aestab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aestab.h; sourceTree = "<group>"; };
-		9D84826F1E839DE3009E184A /* brg_endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brg_endian.h; sourceTree = "<group>"; };
-		9D8482701E839DE3009E184A /* brg_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brg_types.h; sourceTree = "<group>"; };
-		9D8482711E839DE3009E184A /* entropy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = entropy.c; sourceTree = "<group>"; };
-		9D8482721E839DE3009E184A /* entropy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = entropy.h; sourceTree = "<group>"; };
-		9D8482731E839DE3009E184A /* fileenc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fileenc.c; sourceTree = "<group>"; };
-		9D8482741E839DE3009E184A /* fileenc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileenc.h; sourceTree = "<group>"; };
-		9D8482751E839DE3009E184A /* hmac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hmac.c; sourceTree = "<group>"; };
-		9D8482761E839DE3009E184A /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
-		9D8482771E839DE3009E184A /* prng.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prng.c; sourceTree = "<group>"; };
-		9D8482781E839DE3009E184A /* prng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prng.h; sourceTree = "<group>"; };
-		9D8482791E839DE3009E184A /* pwd2key.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pwd2key.c; sourceTree = "<group>"; };
-		9D84827A1E839DE3009E184A /* pwd2key.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pwd2key.h; sourceTree = "<group>"; };
-		9D84827B1E839DE3009E184A /* sha1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha1.c; sourceTree = "<group>"; };
-		9D84827C1E839DE3009E184A /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
-		9D84827E1E839DE3009E184A /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = crypt.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		9D84827F1E839DE3009E184A /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
-		9D8482801E839DE3009E184A /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
-		9D8482811E839DE3009E184A /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; lineEnding = 0; path = mztools.c; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.c; };
-		9D8482821E839DE3009E184A /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = mztools.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		9D8482831E839DE3009E184A /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; lineEnding = 0; path = unzip.c; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.c; };
-		9D8482841E839DE3009E184A /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
-		9D8482851E839DE3009E184A /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; lineEnding = 0; path = zip.c; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.c; };
-		9D8482861E839DE3009E184A /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = zip.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		9D8482871E839DE3009E184A /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
-		9D8482881E839DE3009E184A /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
-		9D8482891E839DE3009E184A /* SSZipCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = SSZipCommon.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		9D84828A1E839DE3009E184A /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
 		9D84828C1E839DE3009E184A /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
 		9D84828D1E839DE3009E184A /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
 		9D84828E1E839DE3009E184A /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
@@ -224,8 +175,6 @@
 		9D8482D51E839E9E009E184A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		9D8482D71E839EA6009E184A /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		9D8482D91E83A0A4009E184A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		9D8482DB1E83A172009E184A /* OKZip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = OKZip.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		9D8482DD1E83A17B009E184A /* OKZip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = OKZip.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -252,7 +201,6 @@
 				9D8482071E839DE3009E184A /* GDataXML */,
 				9D84820B1E839DE3009E184A /* Onekit */,
 				9D8482611E839DE3009E184A /* Onekit_Studio */,
-				9D8482661E839DE3009E184A /* SSZipArchive */,
 				9D84828B1E839DE3009E184A /* TFhpple-master */,
 				9D8481EF1E839DCB009E184A /* Onekit_Test */,
 				9D8481EE1E839DCB009E184A /* Products */,
@@ -305,7 +253,6 @@
 		9D84820B1E839DE3009E184A /* Onekit */ = {
 			isa = PBXGroup;
 			children = (
-				9D8482DB1E83A172009E184A /* OKZip.m */,
 				9D84820C1E839DE3009E184A /* header */,
 				9D8482361E839DE3009E184A /* MATH.m */,
 				9D8482381E839DE3009E184A /* MESSAGE.m */,
@@ -354,7 +301,6 @@
 		9D84820C1E839DE3009E184A /* header */ = {
 			isa = PBXGroup;
 			children = (
-				9D8482DD1E83A17B009E184A /* OKZip.h */,
 				9D8482371E839DE3009E184A /* MESSAGE.h */,
 				9D84820D1E839DE3009E184A /* Macro.h */,
 				9D84820E1E839DE3009E184A /* MATH.h */,
@@ -408,63 +354,6 @@
 				9D8482651E839DE3009E184A /* WKWebView+OneKit.m */,
 			);
 			path = Onekit_Studio;
-			sourceTree = "<group>";
-		};
-		9D8482661E839DE3009E184A /* SSZipArchive */ = {
-			isa = PBXGroup;
-			children = (
-				9D8482671E839DE3009E184A /* aes */,
-				9D84827D1E839DE3009E184A /* minizip */,
-				9D8482871E839DE3009E184A /* SSZipArchive.h */,
-				9D8482881E839DE3009E184A /* SSZipArchive.m */,
-				9D8482891E839DE3009E184A /* SSZipCommon.h */,
-				9D84828A1E839DE3009E184A /* ZipArchive.h */,
-			);
-			path = SSZipArchive;
-			sourceTree = "<group>";
-		};
-		9D8482671E839DE3009E184A /* aes */ = {
-			isa = PBXGroup;
-			children = (
-				9D8482681E839DE3009E184A /* aes.h */,
-				9D8482691E839DE3009E184A /* aes_via_ace.h */,
-				9D84826A1E839DE3009E184A /* aescrypt.c */,
-				9D84826B1E839DE3009E184A /* aeskey.c */,
-				9D84826C1E839DE3009E184A /* aesopt.h */,
-				9D84826D1E839DE3009E184A /* aestab.c */,
-				9D84826E1E839DE3009E184A /* aestab.h */,
-				9D84826F1E839DE3009E184A /* brg_endian.h */,
-				9D8482701E839DE3009E184A /* brg_types.h */,
-				9D8482711E839DE3009E184A /* entropy.c */,
-				9D8482721E839DE3009E184A /* entropy.h */,
-				9D8482731E839DE3009E184A /* fileenc.c */,
-				9D8482741E839DE3009E184A /* fileenc.h */,
-				9D8482751E839DE3009E184A /* hmac.c */,
-				9D8482761E839DE3009E184A /* hmac.h */,
-				9D8482771E839DE3009E184A /* prng.c */,
-				9D8482781E839DE3009E184A /* prng.h */,
-				9D8482791E839DE3009E184A /* pwd2key.c */,
-				9D84827A1E839DE3009E184A /* pwd2key.h */,
-				9D84827B1E839DE3009E184A /* sha1.c */,
-				9D84827C1E839DE3009E184A /* sha1.h */,
-			);
-			path = aes;
-			sourceTree = "<group>";
-		};
-		9D84827D1E839DE3009E184A /* minizip */ = {
-			isa = PBXGroup;
-			children = (
-				9D84827E1E839DE3009E184A /* crypt.h */,
-				9D84827F1E839DE3009E184A /* ioapi.c */,
-				9D8482801E839DE3009E184A /* ioapi.h */,
-				9D8482811E839DE3009E184A /* mztools.c */,
-				9D8482821E839DE3009E184A /* mztools.h */,
-				9D8482831E839DE3009E184A /* unzip.c */,
-				9D8482841E839DE3009E184A /* unzip.h */,
-				9D8482851E839DE3009E184A /* zip.c */,
-				9D8482861E839DE3009E184A /* zip.h */,
-			);
-			path = minizip;
 			sourceTree = "<group>";
 		};
 		9D84828B1E839DE3009E184A /* TFhpple-master */ = {
@@ -564,13 +453,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D8482C21E839DE3009E184A /* prng.c in Sources */,
-				9D8482C31E839DE3009E184A /* pwd2key.c in Sources */,
-				9D8482BD1E839DE3009E184A /* aeskey.c in Sources */,
 				9D8482B11E839DE3009E184A /* OKWeb.m in Sources */,
-				9D8482C41E839DE3009E184A /* sha1.c in Sources */,
-				9D8482C11E839DE3009E184A /* hmac.c in Sources */,
-				9D8482BF1E839DE3009E184A /* entropy.c in Sources */,
 				9D8482A51E839DE3009E184A /* OKLib.m in Sources */,
 				9D84829D1E839DE3009E184A /* OKDatePicker.m in Sources */,
 				9D8482B51E839DE3009E184A /* UIColor+OneKit.m in Sources */,
@@ -581,34 +464,25 @@
 				9D8482911E839DE3009E184A /* MATH.m in Sources */,
 				9D8482CB1E839DE3009E184A /* TFHppleElement.m in Sources */,
 				9D8482941E839DE3009E184A /* OKActions.m in Sources */,
-				9D8482C61E839DE3009E184A /* mztools.c in Sources */,
-				9D8482C71E839DE3009E184A /* unzip.c in Sources */,
-				9D8482BE1E839DE3009E184A /* aestab.c in Sources */,
 				9D8482A71E839DE3009E184A /* OKMATH.m in Sources */,
 				9D8482931E839DE3009E184A /* NSString+OneKit.m in Sources */,
 				9D8482AC1E839DE3009E184A /* OKPath.m in Sources */,
-				9D8482DC1E83A172009E184A /* OKZip.m in Sources */,
 				9D84829A1E839DE3009E184A /* OKColor.m in Sources */,
 				9D8482B21E839DE3009E184A /* OKXml.m in Sources */,
 				9D84829C1E839DE3009E184A /* OKData.m in Sources */,
-				9D8482C91E839DE3009E184A /* SSZipArchive.m in Sources */,
 				9D8482951E839DE3009E184A /* OKAjax.m in Sources */,
 				9D8482A61E839DE3009E184A /* OKLoading.m in Sources */,
 				9D8482AF1E839DE3009E184A /* OKString.m in Sources */,
 				9D8482B71E839DE3009E184A /* UIView+OneKit.m in Sources */,
 				9D8482A01E839DE3009E184A /* OKDialog.m in Sources */,
-				9D8482BC1E839DE3009E184A /* aescrypt.c in Sources */,
 				9D8482AA1E839DE3009E184A /* OKOS.m in Sources */,
-				9D8482C81E839DE3009E184A /* zip.c in Sources */,
 				9D8481F81E839DCB009E184A /* ViewController.m in Sources */,
 				9D8482AD1E839DE3009E184A /* OKPicker.m in Sources */,
 				9D8482981E839DE3009E184A /* OKAsset.m in Sources */,
 				9D8482B41E839DE3009E184A /* SimplePickerView.m in Sources */,
-				9D8482C01E839DE3009E184A /* fileenc.c in Sources */,
 				9D8482A91E839DE3009E184A /* OKMessage.m in Sources */,
 				9D8482901E839DE3009E184A /* GDataXMLNode.m in Sources */,
 				9D8482CA1E839DE3009E184A /* TFHpple.m in Sources */,
-				9D8482C51E839DE3009E184A /* ioapi.c in Sources */,
 				9D8482A31E839DE3009E184A /* OKJson.m in Sources */,
 				9D8482BA1E839DE3009E184A /* NSAttributedString+OneKit.m in Sources */,
 				9D8481F51E839DCB009E184A /* AppDelegate.m in Sources */,

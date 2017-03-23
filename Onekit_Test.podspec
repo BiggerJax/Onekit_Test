@@ -1,25 +1,143 @@
-Pod::Spec.new do |s|
-s.name = "Onekit_Test"
-s.version ="1.0"
-s.summary = "Tools for ios"
-s.homepage = "https://github.com/BiggerJax/Onekit_Test"
-s.license = "MIT"
-s.author ={"Jenny Yuan" => "yuanjiegogo@163.com"}
-s.platform =iOS,"8.0"
-s.source ={git =>"https://github.com/BiggerJax/Onekit_Test.git",tag =>s.version}
-s.source_files = "Onekit_Test/*/.(h.m)" //这里是项目路径要传的文件
+#
+#  Be sure to run `pod spec lint Onekit_Test.podspec' to ensure this is a
+#  valid spec and to remove all comments including this before submitting the spec.
+#
+#  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
+#  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
+#
 
-// 若需要依赖其他开源的第三方库 可以写成下列形式 若需要有多个就复制下面代码 添加第三方库
-    s.dependency "AFNetWorking"
-    s.dependency "GDataXML"
-    s.dependency "SSZipArchive"
-    s.dependency "TFhpple-master"
-// 如果需要配置依赖系统库
-// s.framework = 'SomeFramework'// 设置依赖的系统库名称
-// s.frameworks = 'SomeFramework', 'AnotherFramework'//设置多个系统库名称
-// 需要依赖系统的library
-s.library = 'iconv'// 设置只依赖一个系统的library
-s.libraries = 'iconv', 'xml2' // 设置依赖多个系统的library
-// 这里是工程配置，这样使用者就不需要手动处理，由pod自动处理了
-s.xcconfig = {'HEADER_SEARCH_PATHS' =>'$(SDKROOT)/usr/include/libxml2'}
+Pod::Spec.new do |s|
+
+  # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  #
+  #  These will help people to find your library, and whilst it
+  #  can feel like a chore to fill in it's definitely to your advantage. The
+  #  summary should be tweet-length, and the description more in depth.
+  #
+
+  s.name         = "Onekit_Test"
+  s.version      = "0.0.1"
+  s.summary      = "Tools for ios"
+
+  # This description is used to generate tags and improve search results.
+  #   * Think: What does it do? Why did you write it? What is the focus?
+  #   * Try to keep it short, snappy and to the point.
+  #   * Write the description between the DESC delimiters below.
+  #   * Finally, don't worry about the indent, CocoaPods strips it!
+
+  s.homepage     = "https://github.com/BiggerJax/Onekit_Test"
+  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
+
+
+  # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  #
+  #  Licensing your code is important. See http://choosealicense.com for more info.
+  #  CocoaPods will detect a license file if there is a named LICENSE*
+  #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
+  #
+
+  s.license      = "MIT"
+  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+
+
+  # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  #
+  #  Specify the authors of the library, with email addresses. Email addresses
+  #  of the authors are extracted from the SCM log. E.g. $ git log. CocoaPods also
+  #  accepts just a name if you'd rather not provide an email address.
+  #
+  #  Specify a social_media_url where others can refer to, for example a twitter
+  #  profile URL.
+  #
+
+  s.author             = { "JennyY" => "yuanjiegogo@163.com" }
+  # Or just: s.author    = "JennyY"
+  # s.authors            = { "JennyY" => "yuanjiegogo@163.com" }
+  # s.social_media_url   = "http://twitter.com/JennyY"
+
+  # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  #
+  #  If this Pod runs only on iOS or OS X, then specify the platform and
+  #  the deployment target. You can optionally include the target after the platform.
+  #
+
+  # s.platform     = :ios
+   s.platform     = :ios, "8.0"
+
+  #  When using multiple platforms
+  # s.ios.deployment_target = "5.0"
+  # s.osx.deployment_target = "10.7"
+  # s.watchos.deployment_target = "2.0"
+  # s.tvos.deployment_target = "9.0"
+
+
+  # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  #
+  #  Specify the location from where the source should be retrieved.
+  #  Supports git, hg, bzr, svn and HTTP.
+  #
+
+  s.source       = { :git => "https://github.com/BiggerJax/Onekit_Test.git", :tag => "#{s.version}" }
+
+
+  # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  #
+  #  CocoaPods is smart about how it includes source code. For source files
+  #  giving a folder will include any swift, h, m, mm, c & cpp files.
+  #  For header files it will include any header in the folder.
+  #  Not including the public_header_files will make all headers public.
+  #
+
+  s.source_files  = "Onekit_Test", "Onekit_Test/**/*.{h,m}"
+
+  # s.public_header_files = "Classes/**/*.h"
+
+
+  # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  #
+  #  A list of resources included with the Pod. These are copied into the
+  #  target bundle with a build phase script. Anything else will be cleaned.
+  #  You can preserve files from being cleaned, please don't preserve
+  #  non-essential files like tests, examples and documentation.
+  #
+
+  # s.resource  = "icon.png"
+  # s.resources = "Resources/*.png"
+
+  # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
+
+
+  # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  #
+  #  Link your library with frameworks, or libraries. Libraries do not include
+  #  the lib prefix of their name.
+  #
+
+  # s.framework  = "SomeFramework"
+   s.frameworks = "UIKit", "AssetsLibrary","MessageUI","CoreLocation"
+
+  # s.library   = "iconv"
+   s.libraries =  "xml2","sqlite3"
+
+
+  # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  #
+  #  If your library depends on compiler flags you can set them in the xcconfig hash
+  #  where they will only apply to your library. If you depend on other Podspecs
+  #  you can include multiple dependencies to ensure it works.
+    non_arc_file = 'Onekit_Test/GDataXML/GDataXMLNode.m'
+
+    s.requires_arc = true
+   s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
+
+  # s.dependency "JSONKit", "~> 1.4"
+
+
+
+    s.exclude_files = non_arc_file
+
+    s.subspec 'no-arc' do |sp|
+        sp.source_files = non_arc_file
+        sp.requires_arc = false
+    end
 end
