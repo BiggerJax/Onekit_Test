@@ -39,7 +39,7 @@
     NSString *img_path = [bundlePath stringByAppendingPathComponent:path];
     return [UIImage imageWithContentsOfFile:img_path];
 }
-+(id)loadOKJson:(NSString *)path{
++(id)loadJSON:(NSString *)path{
     NSString* string = [self loadString:path];
     return [OKJson parse:string];
 }

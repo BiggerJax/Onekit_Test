@@ -81,7 +81,7 @@
 }
 
 +(NSString *)getMemory{
-    BOOL isAll;
+    BOOL isAll = false;
     if (isAll) {
         return [NSString stringWithFormat:@"%lu",(long)[self totalMemoryBytes]/(1024*1024)];
     }else{
@@ -120,7 +120,7 @@
 }
 
 +(NSString *)getDisk{
-    BOOL isAll;
+    BOOL isAll = false;
     NSDictionary *fattributes = [[NSFileManager defaultManager] attributesOfFileSystemForPath:NSHomeDirectory() error:nil];
     float sdsize;
     if (isAll) {

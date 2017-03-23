@@ -87,7 +87,7 @@
     }];
 }
 
-+(void)saveOKJson:(NSString *)path json:(NSDictionary *)json callback:(void (^)(void))callback{
++(void)saveJSON:(NSString *)path json:(NSDictionary *)json callback:(void (^)(void))callback{
     NSString* jsonString = [OKJson stringify:json];
     [self saveString:path string:jsonString callback:^{
         callback();
